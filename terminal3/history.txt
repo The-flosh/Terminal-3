@@ -1,0 +1,2 @@
+  352  grep -c "France,2019,PHP" < wilders.csv | cat > php_france_2019.csv ; grep -E *Toulouse.*JavaScript* < wilders.csv | cat > JsToulouse.csv ; grep -E *Biarritz.*JavaScript* < wilders.csv | cat > JsBiarritz.csv ; cat JsToulouse.csv JsBiarritz.csv | sort -u > javascript_biarritz_toulouse.csv
+  353  history | tail -n 2 > history.txt
